@@ -17,6 +17,10 @@ export default function Home() {
           <img src="./LAMDA.png" alt="" width="206" height="87" />
         </div>
       </div>
+      <div className="edu-entry edu-entry--research">
+        <a className="edu-logo-link" href="https://www.hkust-gz.edu.cn/"><img src="./images/hkustgz-logo.png" className="edu-logo edu-logo--hkustgz" alt="HKUST (Guangzhou) emblem" width="40" height="40" /></a>
+        <div><strong>Hong Kong University of Science and Technology (Guangzhou)</strong> · Research Assistant<br />Open-world agents and multi-agent strategic interaction<br /><span className="project-date"><time dateTime="2025-05">May 2025</time> – <time dateTime="2026-07">July 2026</time></span></div>
+      </div>
       <div className="edu-entry">
         <a className="edu-logo-link" href="https://www.xidian.edu.cn/"><img src="./images/xidian-emblem.jpg" className="edu-logo" alt="Xidian University emblem" width="40" height="40" /></a>
         <div><strong>Xidian University</strong> · Master’s Degree<br />Information and Communication Engineering<br />State Key Laboratory of Radar Signal Processing<br /><span className="project-date"><time dateTime="2021-09">September 2021</time> – <time dateTime="2024-06">June 2024</time></span></div>

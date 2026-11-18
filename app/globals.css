@@ -113,3 +113,6 @@ body #main { max-width: 1240px; margin: 32px auto 0; padding: 0 32px; display: g
 @media (max-width: 925px) {
   #main .lamda-watermark { display: none; }
 }
+
+/* Display the emblem at the left of HKUST(GZ)'s official horizontal logo. */
+#main .edu-logo.edu-logo--hkustgz { width: calc(40px * 70 / 106); object-fit: cover; object-position: left center; }

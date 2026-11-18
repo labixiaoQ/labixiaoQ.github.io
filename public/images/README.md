@@ -9,4 +9,9 @@ Original proportions and colors are preserved. Web copies are downscaled to
 - `xidian-emblem.jpg`: “西电新标志1.jpg” from the JPG package linked by the
   [Xidian University publicity office](https://xcb.xidian.edu.cn/info/1008/1094.htm).
 
+- `hkustgz-logo.png`: original color logo served by the
+  [HKUST (Guangzhou) official website](https://www.hkust-gz.edu.cn/zh/about/).
+  The official horizontal logo is unchanged; CSS shows its emblem on the left
+  within the same 40px frame as the other university emblems.
+
 Retrieved 2026-11-18. The marks belong to their respective universities.
