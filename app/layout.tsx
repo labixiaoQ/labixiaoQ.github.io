@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SiteShell } from "./components/site-shell";
 
 export const metadata: Metadata = {
   title: "Renmin Cheng | Academic Home",
@@ -8,13 +9,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Renmin Cheng | Academic Home",
     description: "Game Agents, Embodied AI, and LLM Agents.",
-    images: ["/og.png"],
+    images: ["/renmin-cheng.png"],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Renmin Cheng | Academic Home",
     description: "Game Agents, Embodied AI, and LLM Agents.",
-    images: ["/og.png"],
+    images: ["/renmin-cheng.png"],
   },
   icons: {
     icon: "/favicon.svg",
@@ -29,7 +30,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head><link rel="stylesheet" href="./template/css/main.css" /></head>
+      <body><SiteShell>{children}</SiteShell></body>
     </html>
   );
 }
