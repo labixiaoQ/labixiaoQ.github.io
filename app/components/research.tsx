@@ -5,23 +5,33 @@ export function Publications({ standalone = false }: { standalone?: boolean }) {
       <Heading id="publications" className="section-title">📝 Selected Publications</Heading>
       <article className="paper-box">
         <div className="paper-box-image"><div>
-          <div className="badge">arXiv 2026</div>
+          <div className="badge">TMLR</div>
           <img src="./wise-world.webp" alt="Minecraft-inspired concept illustration for WISE" width="400" loading="lazy" />
           <p className="gs-pub-note">Concept illustration</p>
         </div></div>
         <div className="paper-box-text">
           <h3 className="paper-title"><a href="https://arxiv.org/abs/2606.12852">WISE: A Long-Horizon Agent in Minecraft with Why-Which Reasoning</a></h3>
           <p><strong>Renmin Cheng</strong> and Changhao Chen</p>
-          <p className="paper-venue">arXiv preprint, 2026. Under review at TMLR.</p>
+          <p className="paper-venue">Transactions on Machine Learning Research (TMLR). Accepted.</p>
           <p>VLM-based perception, structured memory, causal reasoning, and adaptive task scheduling for long-horizon Minecraft tasks.</p>
           <a className="paper-link" href="https://arxiv.org/abs/2606.12852">Paper <span aria-hidden="true">↗</span></a>
         </div>
       </article>
       <h2 id="full-publications" className="section-title">📚 Full Publication List</h2>
       <div className="gs-pub-item">
+        <div className="gs-pub-title">HOI4-Bench: Evaluating Long-Horizon LLM Strategic Planning and Resource Coordination in Hearts of Iron IV</div>
+        <div className="gs-pub-authors"><strong>Renmin Cheng</strong>, Xiaowen Yang, et al.</div>
+        <div className="gs-pub-venue">ACL Rolling Review (ARR). Submitted.</div>
+      </div>
+      <div className="gs-pub-item">
+        <div className="gs-pub-title">SEGUE: Bridging Symbolic Coordination and Embodied Execution for Sequential Social Dilemmas</div>
+        <div className="gs-pub-authors"><strong>Renmin Cheng</strong>, Yufei Zhang, et al.</div>
+        <div className="gs-pub-venue">Transactions on Machine Learning Research (TMLR). Submitted.</div>
+      </div>
+      <div className="gs-pub-item">
         <div className="gs-pub-title"><a href="https://arxiv.org/abs/2606.12852">WISE: A Long-Horizon Agent in Minecraft with Why-Which Reasoning</a></div>
         <div className="gs-pub-authors"><strong>Renmin Cheng</strong> and Changhao Chen.</div>
-        <div className="gs-pub-venue">arXiv preprint, 2026. Under review at TMLR.</div>
+        <div className="gs-pub-venue">Transactions on Machine Learning Research (TMLR). Accepted.</div>
       </div>
       <div className="gs-pub-item">
         <div className="gs-pub-title">Research on RCS Measurement Methods Based on Global Adaptive Extraction</div>
@@ -38,8 +48,13 @@ export function Software() {
       <article>
         <h3>WISE Agent</h3>
         <p className="project-date"><time dateTime="2025-05">May 2025</time> – <time dateTime="2026-07">July 2026</time> · Project lead</p>
-        <p>A long-horizon Minecraft agent that combines VLM-based perception, structured memory, causal reasoning, and adaptive task scheduling.</p>
+        <p>A long-horizon Minecraft agent combining VLM-driven causal event graphs, opportunistic task scheduling, and multi-scale progressive exploration for memory retrieval and dynamic decision-making.</p>
         <p><a href="https://arxiv.org/abs/2606.12852">[Paper]</a></p>
+      </article>
+      <article>
+        <h3>LLM Multi-Agent Social Dilemmas and Strategic Interaction</h3>
+        <p className="project-date"><time dateTime="2025-05">May 2025</time> – <time dateTime="2026-07">July 2026</time> · Core contributor</p>
+        <p>Developed Minecraft-based social dilemma environments to study cooperation, competition, and strategic behavior in LLM agents. Contributions included environment development, experimental design, behavior analysis, and paper writing.</p>
       </article>
       <article>
         <h3>MrSteve</h3>

@@ -10,6 +10,7 @@ const links = [
   { label: "Selected Publications", href: "./index.html#publications", section: "publications", page: "home" },
   { label: "Full Publications", href: "./publication.html#full-publications", page: "publication" },
   { label: "Software", href: "./software.html", page: "software" },
+  { label: "Experience", href: "./index.html#experience", section: "experience", page: "home" },
   { label: "Blog", href: "./blog.html", page: "blog" },
 ];
 

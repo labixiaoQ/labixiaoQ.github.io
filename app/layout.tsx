@@ -4,7 +4,7 @@ import { SiteShell } from "./components/site-shell";
 
 export const metadata: Metadata = {
   title: "Renmin Cheng | Academic Home",
-  description: "Academic homepage of Renmin Cheng, incoming Ph.D. student at LAMDA, Nanjing University.",
+  description: "Academic homepage of Renmin Cheng, Ph.D. student at LAMDA, Nanjing University.",
   metadataBase: new URL("https://labixiaoq.github.io"),
   openGraph: {
     title: "Renmin Cheng | Academic Home",

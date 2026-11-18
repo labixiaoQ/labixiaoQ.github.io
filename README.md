@@ -35,8 +35,10 @@ Run `npm run lint` for source checks.
 - `public/`: images and original template resources; attribution and license
   are retained in `public/template/`.
 
-The imported “Incoming Ph.D. Student” and publication statuses are retained
-as supplied. Update them when confirmed. The WISE image is labeled as a concept
+Education, experience, and publication statuses follow the user-supplied final CV
+(updated 2026-11-18). Undergraduate education is intentionally omitted.
+WISE is listed as accepted at TMLR; HOI4-Bench and SEGUE remain submitted.
+Private contact details and detailed project performance claims are omitted. The WISE image is labeled as a concept
 illustration. No blog posts, publication metrics, or extra credentials are invented.
 The original template JavaScript is archived but not loaded; the responsive
 navigation and profile links work without it.

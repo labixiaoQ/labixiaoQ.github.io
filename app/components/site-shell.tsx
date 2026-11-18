@@ -13,7 +13,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             <div className="author__avatar"><img src="./renmin-cheng.png" alt="Portrait of Renmin Cheng" itemProp="image" width="180" height="180" /></div>
             <div className="author__content">
               <h2 className="author__name" itemProp="name">Renmin Cheng</h2>
-              <p className="author__bio"><span lang="zh-CN">程人民</span><br />Incoming Ph.D. Student<br />Nanjing University</p>
+              <p className="author__bio"><span lang="zh-CN">程人民</span><br />Ph.D. Student<br />Nanjing University</p>
             </div>
             <div className="author__urls-wrapper">
               <ul className="author__urls social-icons">
