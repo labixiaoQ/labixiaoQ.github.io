@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <section aria-labelledby="about-me">
-        <h1 id="about-me" className="sr-only">About Me</h1>
+        <h1 id="about-me" className="section-title">About Me</h1>
         <p>I am <strong>Renmin Cheng (程人民)</strong>, an incoming Ph.D. student at the <a href="https://www.lamda.nju.edu.cn/">LAMDA Group</a>, <a href="https://www.nju.edu.cn/">Nanjing University</a>.</p>
         <p>My research interests include <strong>long-horizon game agents, embodied AI, and large language model agents</strong>. I focus on structured memory and reasoning to help agents perceive, plan, and act in complex environments, particularly Minecraft. My previous research also includes radar cross-section measurement.</p>
         <p className="collab-note">🎮 Building agents that can remember, reason, and act over long horizons.</p>

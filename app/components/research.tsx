@@ -6,15 +6,15 @@ export function Publications({ standalone = false }: { standalone?: boolean }) {
       <article className="paper-box">
         <div className="paper-box-image"><div>
           <div className="badge">arXiv 2026</div>
-          <img src="./wise-world.webp" alt="Minecraft-inspired concept illustration for WISE" width="400" />
+          <img src="./wise-world.webp" alt="Minecraft-inspired concept illustration for WISE" width="400" loading="lazy" />
           <p className="gs-pub-note">Concept illustration</p>
         </div></div>
         <div className="paper-box-text">
-          <p><strong>WISE: A Long-Horizon Agent in Minecraft with Why-Which Reasoning</strong></p>
+          <h3 className="paper-title"><a href="https://arxiv.org/abs/2606.12852">WISE: A Long-Horizon Agent in Minecraft with Why-Which Reasoning</a></h3>
           <p><strong>Renmin Cheng</strong> and Changhao Chen</p>
           <p className="paper-venue">arXiv preprint, 2026. Under review at TMLR.</p>
           <p>VLM-based perception, structured memory, causal reasoning, and adaptive task scheduling for long-horizon Minecraft tasks.</p>
-          <a href="https://arxiv.org/abs/2606.12852">[Paper]</a>
+          <a className="paper-link" href="https://arxiv.org/abs/2606.12852">Paper <span aria-hidden="true">↗</span></a>
         </div>
       </article>
       <h2 id="full-publications" className="section-title">📚 Full Publication List</h2>

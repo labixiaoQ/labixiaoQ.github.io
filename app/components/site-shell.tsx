@@ -1,22 +1,16 @@
+import { SiteNav } from "./site-nav";
+
 export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <>
       <a className="skip-link" href="#content">Skip to content</a>
       <header className="masthead"><div className="masthead__inner-wrap">
-        <nav className="site-nav" aria-label="Main navigation">
-          <a className="home-link" href="./index.html">Homepage</a>
-          <a href="./index.html#about-me">About Me</a>
-          <a href="./index.html#educations">Education</a>
-          <a href="./index.html#publications">Selected Publications</a>
-          <a href="./publication.html#full-publications">Full Publications</a>
-          <a href="./software.html">Software</a>
-          <a href="./blog.html">Blog</a>
-        </nav>
+        <SiteNav />
       </div></header>
       <div id="main">
         <aside className="sidebar sticky" aria-label="Profile">
           <div itemScope itemType="https://schema.org/Person" className="profile_box">
-            <div className="author__avatar"><img src="./renmin-cheng.png" alt="Portrait of Renmin Cheng" itemProp="image" /></div>
+            <div className="author__avatar"><img src="./renmin-cheng.png" alt="Portrait of Renmin Cheng" itemProp="image" width="180" height="180" /></div>
             <div className="author__content">
               <h2 className="author__name" itemProp="name">Renmin Cheng</h2>
               <p className="author__bio"><span lang="zh-CN">程人民</span><br />Incoming Ph.D. Student<br />Nanjing University</p>
