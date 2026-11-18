@@ -23,9 +23,6 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
               </ul>
             </div>
           </div>
-          <div className="lamda-watermark" aria-hidden="true">
-            <img src="./LAMDA.png" alt="" width="206" height="87" />
-          </div>
         </aside>
         <main id="content" className="page" tabIndex={-1}>
           <div className="page__inner-wrap">

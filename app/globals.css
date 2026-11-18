@@ -107,7 +107,8 @@ body #main { max-width: 1240px; margin: 32px auto 0; padding: 0 32px; display: g
 #main .experience-list article { padding: 4px 0 16px; border-bottom: 1px dashed #ececec; }
 #main .experience-list h3 { font-size: 17px; line-height: 1.5; margin: 12px 0 8px; }
 
-#main .lamda-watermark { width: 160px; margin-top: 42px; opacity: .18; pointer-events: none; user-select: none; }
+#main .education-details { flex: 1; min-width: 0; }
+#main .lamda-watermark { flex: 0 0 128px; width: 128px; margin-left: auto; opacity: .18; pointer-events: none; user-select: none; }
 #main .lamda-watermark img { display: block; width: 100%; height: auto; }
 @media (max-width: 925px) {
   #main .lamda-watermark { display: none; }

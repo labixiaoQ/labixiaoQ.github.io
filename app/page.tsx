@@ -10,9 +10,12 @@ export default function Home() {
         <p className="collab-note">🎮 Building agents that can remember, reason, and act over long horizons.</p>
       </section>
       <h2 id="educations" className="section-title">🎓 Education</h2>
-      <div className="edu-entry">
+      <div className="edu-entry edu-entry--doctoral">
         <a className="edu-logo-link" href="https://www.nju.edu.cn/"><img src="./images/nanjing-emblem.jpg" className="edu-logo" alt="Nanjing University emblem" width="40" height="40" /></a>
-        <div><strong>Nanjing University</strong> · Ph.D. Student<br /><a href="https://www.lamda.nju.edu.cn/">LAMDA Group</a><br /><span className="project-date"><time dateTime="2026-09">September 2026</time> – Present · Advisors: Lanzhe Guo and Yufeng Li</span></div>
+        <div className="education-details"><strong>Nanjing University</strong> · Ph.D. Student<br /><a href="https://www.lamda.nju.edu.cn/">LAMDA Group</a><br /><span className="project-date"><time dateTime="2026-09">September 2026</time> – Present · Advisors: Lanzhe Guo and Yufeng Li</span></div>
+        <div className="lamda-watermark" aria-hidden="true">
+          <img src="./LAMDA.png" alt="" width="206" height="87" />
+        </div>
       </div>
       <div className="edu-entry">
         <a className="edu-logo-link" href="https://www.xidian.edu.cn/"><img src="./images/xidian-emblem.jpg" className="edu-logo" alt="Xidian University emblem" width="40" height="40" /></a>
