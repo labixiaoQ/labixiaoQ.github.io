@@ -45,11 +45,6 @@ export default function Home() {
       <h2 id="experience" className="section-title">💼 Experience</h2>
       <div className="experience-list">
         <article>
-          <h3>Hong Kong University of Science and Technology (Guangzhou)</h3>
-          <p className="project-date">Research Assistant · <time dateTime="2025-05">May 2025</time> – <time dateTime="2026-07">July 2026</time></p>
-          <p>Research on open-world agents and multi-agent strategic interaction, including environment development, algorithm implementation, experimental evaluation, and paper writing.</p>
-        </article>
-        <article>
           <h3>Baidu</h3>
           <p className="project-date">Backend Software Engineer · <time dateTime="2024-07">July 2024</time> – <time dateTime="2025-05">May 2025</time></p>
           <p>Worked on e-commerce search and recommendation infrastructure, focusing on service reliability and real-time retrieval architecture.</p>
